@@ -16,7 +16,7 @@ import_csv_to_mysql_db
 1 row in set (0.00 sec)
 
 
-# more /root/t12.csv 
+ more /root/t12.csv 
 "1804289383","mxvtvmC9127qJNm06sGB8R92q2j7vTiiITRDGXM9ZLzkdekbWtmXKwZ2qG1llkRw5m9DHOFilEREk3q7oce8O3BEJC0woJsm6uzFAEynLH2xCsw1KQ1lT4zg9rdxBL","1"
 "822890675","97RGHZ65mNzkSrYT3zWoSbg9cNePQr1bzSk81qDgE4Oanw3rnPfGsBHSbnu1evTdFDe83ro9w4jjteQg4yoo9xHck3WNqzs54W5zEm92ikdRF48B2oz3m8gMBAl11W","2"
 "1308044878","50w46i58Giekxik0cYzfA8BZBLADEg3JhzGfZDoqvQQk0Akcic7lcJInYSsf9wqin6LDC1vzJLkJXKn5onqOy04MTw1WksCYqPl2Jg2eteqOqTLfGCvE4zTZwWvgMz","3"
