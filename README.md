@@ -61,3 +61,22 @@ CREATE TABLE `tmp_log` (
 20190413,1116733022683664384,N/A,N/A,24,N/A,8abdc000-b756-4919-91cd-25a65cb9fb00,NULL,aiyamayaaiyamaya.com.cn,1830151665811,110.110.110.110,zh-CN,Eaiyamayaaiyamaya,c744e65c-c23f-41de-bd7f-c8703ba3875f,N/A,640,360,"a,button,input,span,img,div,i,ul,li,p,label,select,em",笑笑笑,https://bjax.aiyamayaaiyamaya.com.cn/m,"Mozilla/5.0 (Linux; Android 9; MHA-AL00 Build/HUAWEIMHA-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044606 Mobile Safari/537.36 MMWEBID/7068 MicroMessenger/7.0.3.1400(0x2700033C) Process/tools NetType/4G Language/zh_CN",N/A,3.0,N/A
 20190413,1116733069701812224,N/A,N/A,32,N/A,6c8e037c-6096-416f-b8a5-39736800a894,NULL,d.aiyamayaaiyamaya.com.cn,1830151665811,110.110.110.110,zh-CN,Eaiyamayaaiyamaya,d538b28e-858f-42d6-b15c-c1fdfad46c05,N/A,1920,1080,"a,button,input,span,img,div,i,ul,li,p,label,select,em",哈哈哈,https://d.aiyamayaaiyamaya.com.cn/aiyamayaaiyamaya_activity3.0/6163?utm_source=tencent&utm_medium=Network&utm_term=84001201904AD11005&utm_campaign=Octavia,Dalvik/2.1.0 (Linux; U; Android 5.1.1; HM 1SLTETD Build/KOT49H),N/A,3.0,N/A
  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+csv2MySQL
+
+./csv2MySQL --table=t1  --host=192.168.0.170 --user=xzx --password= --dbname=mysqlslap --csvPath=/root/t12.csv
