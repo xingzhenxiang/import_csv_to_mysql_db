@@ -58,8 +58,6 @@ CREATE TABLE `tmp_log` (
 
 
 
-
-
 csv2MySQL
 
 ./csv2MySQL --table=t1  --host=192.168.0.170 --user=xzx --password= --dbname=mysqlslap --csvPath=/root/t12.csv
