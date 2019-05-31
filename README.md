@@ -43,17 +43,8 @@ CREATE TABLE `tmp_log` (
  go run main.go --table=tmp_log  --host=192.168.0.170 --user=root --password=123456 --dbname=mysqlslap --csvPath=/root/12.txt
  
  
- 
 
-
-
-
-
-
-
-
-
-
+二进制文件执行方式
 
 
 
