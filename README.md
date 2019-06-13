@@ -1,18 +1,18 @@
 # import_csv_to_mysql_db
-import_csv_to_mysql_db
+import_csv_to_mysql_db  
 
 
- go run main.go --table=t1  --host=192.168.0.170 --user=xzx --password= --dbname=mysqlslap --csvPath=/root/t12.csv
+ go run main.go --table=t1  --host=192.168.0.170 --user=xzx --password= --dbname=mysqlslap --csvPath=/root/t12.csv  
  
- mysql> show create table t1;
-CREATE TABLE `t1` (
-  `intcol1` int(32) DEFAULT NULL,
-  `charcol1` varchar(128) DEFAULT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 
+ mysql> show create table t1;  
+CREATE TABLE `t1` (  
+  `intcol1` int(32) DEFAULT NULL,  
+  `charcol1` varchar(128) DEFAULT NULL  
+) ENGINE=InnoDB DEFAULT CHARSET=latin1   
 
 
-mysql> show create table tmp_log;
-CREATE TABLE `tmp_log` (
+mysql> show create table tmp_log;  
+CREATE TABLE `tmp_log` (  
   `day` date DEFAULT NULL,
   `logid` bigint(20) DEFAULT NULL,
   `accout` varchar(225) DEFAULT NULL,
@@ -37,20 +37,20 @@ CREATE TABLE `tmp_log` (
   `userinfo` varchar(2000) DEFAULT NULL,
   `version` varchar(20) DEFAULT NULL,
   `xpath` varchar(1000) DEFAULT NULL,
-  KEY `inx_day` (`day`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4
+  KEY `inx_day` (`day`)  
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4  
 
- go run main.go --table=tmp_log  --host=192.168.0.170 --user=root --password=123456 --dbname=mysqlslap --csvPath=/root/12.txt
+ go run main.go --table=tmp_log  --host=192.168.0.170 --user=root --password=123456 --dbname=mysqlslap --csvPath=/root/12.txt  
  
  
 
-二进制文件执行方式
+二进制文件执行方式  
 
 
 
 
 
 
-csv2MySQL
+csv2MySQL  
 
-./csv2MySQL --table=t1  --host=192.168.0.170 --user=xzx --password= --dbname=mysqlslap --csvPath=/root/t12.csv
+./csv2MySQL --table=t1  --host=192.168.0.170 --user=xzx --password= --dbname=mysqlslap --csvPath=/root/t12.csv  
