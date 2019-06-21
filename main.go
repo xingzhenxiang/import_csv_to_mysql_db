@@ -35,7 +35,7 @@ func main() {
         db, err := sql.Open("mysql", dataSourceName)
         defer db.Close()
         checkErr(err)
-        rows, _ := db.Query("select * from " + *table)
+        rows, _ := db.Query("select * from " + *table + " where 1=1 limit 1")
         cols, _ := rows.Columns()
         var stringcol string
         for _, v := range cols {
