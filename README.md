@@ -5,14 +5,14 @@ import_csv_to_mysql_db
  go run main.go --table=t1  --host=192.168.0.170 --user=xzx --password= --dbname=mysqlslap --csvPath=/root/t12.csv  
  
  mysql> show create table t1;  
-CREATE TABLE `t1` (  
+>CREATE TABLE `t1` (  
   `intcol1` int(32) DEFAULT NULL,  
   `charcol1` varchar(128) DEFAULT NULL  
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1   
 
 
 mysql> show create table tmp_log;  
-CREATE TABLE `tmp_log` (  
+>CREATE TABLE `tmp_log` (  
   `day` date DEFAULT NULL,
   `logid` bigint(20) DEFAULT NULL,
   `accout` varchar(225) DEFAULT NULL,
